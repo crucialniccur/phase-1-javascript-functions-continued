@@ -24,7 +24,7 @@
 
 // defining the sato function
 function saturdayFun(activity = "roller-skate") {
-  return `This Saturday,  want to ${activity}!`;
+  return `This Saturday, I want to ${activity}!`;
 }
 
 // modaei work
