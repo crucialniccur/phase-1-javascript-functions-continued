@@ -21,3 +21,8 @@
 // //   return `This Saturday, i want to ${activity}!`;
 // //   return "This Saturday, I want to bathe my dog!";
 // // }
+
+// defining the sato function
+function saturdayFun(activity = "roller-skate") {
+  return `This Saturday,  want to ${activity}`;
+}
