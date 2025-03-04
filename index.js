@@ -31,3 +31,9 @@ function saturdayFun(activity = "roller-skate") {
 const mondayWork = function (activity = "go to the office") {
   return `This Monday i will ${activity}.`;
 };
+
+function wrapAdjective(wrapOne = "*") {
+  return function (adjective = "special") {
+    return `You are ${wrapOne}${adjective}${wrapOne}!`;
+  };
+}
