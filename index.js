@@ -29,7 +29,7 @@ function saturdayFun(activity = "roller-skate") {
 
 // modaei work
 const mondayWork = function (activity = "go to the office") {
-  return `This Monday i will ${activity}.`;
+  return `This Monday, I will ${activity}.`;
 };
 
 function wrapAdjective(wrapOne = "*") {
