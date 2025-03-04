@@ -17,5 +17,5 @@
 // }
 
 function saturdayFun(activity = "roller-skate") {
-  console.log(`This Saturday, i want to ${activity}`);
+  return `This Saturday, i want to ${activity}`;
 }
